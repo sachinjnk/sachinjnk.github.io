@@ -49,11 +49,10 @@ header img {
 
 .content section{
     display: inline-block;
-    padding: 0px;
+    padding: 5px;
     width: 24%;
-    
-    margin-top: 30px;
-    background-color: rgb(28, 154, 154);
+    margin-top: 0px;
+    background-color: rgb(229, 236, 236);
 }
 
 .content section img{
@@ -61,16 +60,17 @@ header img {
     height: 300px;
     object-fit: cover;
 }
-
+/*
 h3{
     text-decoration: none;
     margin: 5px;
     text-align: center;
-    padding: 10px;
-    background-color: red;
-    color: #f1f5f2;
+    padding: 5px;
+    background-color: #ebecec;
+    color: #031508;
     display: block;
-}
+}*/
+
 
 h2{
     text-decoration: none;
@@ -81,3 +81,19 @@ h2{
     color: #efefef;
     display: block;
 }
+
+button{
+    width: 100%;
+    margin-top: 8px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #19aa5a;
+  }
+button:hover{
+    background: #1e834b;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
