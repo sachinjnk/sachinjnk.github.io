@@ -30,7 +30,7 @@ nav ul li a{
     background-color: rgb(18, 2, 2);
     color: #efefef;
     display: block;
-    float: right;
+    
     
 }
 
@@ -103,6 +103,11 @@ button:hover{
     color: #fff;
     transition: 0.5s;
   }
+
+  @media(max-width: 767px){
+    .login-popup .box{
+      width: calc(100% - 30px);
+    }
 
 
 /*
