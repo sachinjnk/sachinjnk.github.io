@@ -3,10 +3,12 @@ body{
     padding: 50px;
 }
 nav{
-    padding: 10px;
+    padding: 5px;
     background-color: #efefef;
     float: left;
     width: 100%;
+    border-radius: 10px;
+    text-align: right;
 }
 
 nav ul{
@@ -15,18 +17,21 @@ nav ul{
 }
 
 nav ul li{
-    padding: 10px;
+    padding: 0px;
     list-style: none;
     display: inline-block;
+    
 }
 
 nav ul li a{
     text-decoration: none;
-    
+    border-radius: 10px;
     padding: 10px;
-    background-color: red;
+    background-color: rgb(18, 2, 2);
     color: #efefef;
     display: block;
+    float: right;
+    
 }
 
 header{
